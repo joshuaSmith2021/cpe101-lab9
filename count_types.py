@@ -38,5 +38,5 @@ def print_types(values: list) -> None:
 
 
 if __name__ == '__main__':
-    values = open_file('infile')
+    values = open_file(input('Enter File Name: '))
     print_types(values)
